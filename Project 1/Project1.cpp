@@ -1,10 +1,9 @@
-/*
- * Project1.cpp
- * 
- * Name: Adeel Rehman
- * EE312 Spring 2020
- * SpellCheck
- */
+// SpellCheck <Project1.cpp>
+// EE 312 Project 1 submission by Adeel Rehman
+// Adeel Rehman
+// aur228
+// Slip days used: <0>
+// Fall 2019
 
 #include <stdio.h> // provides declarations for printf and putchar
 #include <stdint.h> // provides declarations for int32_t uint32_t and the other (new) standard C types
