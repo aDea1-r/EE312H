@@ -13,6 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7a2532ca-ec91-4b44-8e83-fdc2557a8ed6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 2/Project2_starter_files/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 2/Project2_starter_files/MatrixMultiply.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 2/Project2_starter_files/Project2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 2/Project2_starter_files/header.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 2/Project2_starter_files/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project 2/sample_grading_script/sample_grading_script.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +83,8 @@
       <workItem from="1581365421835" duration="712000" />
       <workItem from="1581379086990" duration="86000" />
       <workItem from="1581481090732" duration="430000" />
+      <workItem from="1582061628143" duration="19000" />
+      <workItem from="1582061696421" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="Working on Windows">
       <created>1581365922840</created>
@@ -120,6 +128,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581481148427" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1582062086064">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582062086064" />
     <state width="1237" height="127" key="GridCell.Tab.0.bottom" timestamp="1581310463737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -156,6 +168,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1581310408540" />
+    <state width="640" height="175" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1582062107893">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="640" height="175" key="ImportCMakeProjectWizard.bottomPanel/0.0.1280.680@0.0.1280.680" timestamp="1582062107893" />
+    <state width="640" height="409" key="ImportCMakeProjectWizard.topPanel" timestamp="1582062107893">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="640" height="409" key="ImportCMakeProjectWizard.topPanel/0.0.1280.680@0.0.1280.680" timestamp="1582062107893" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1581379105608">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
