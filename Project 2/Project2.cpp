@@ -1,8 +1,11 @@
-/* Project2.cpp
- * Adeel Rehman
- * EE312, Spring 2020
- * Project 2, Matrix Multiplication
- */
+// matrix-multiplication Project2.cpp
+// EE 312 Project 2 submission by
+// Adeel Rehman
+// aur228
+// Slip days used: <0>
+// Spring 2020
+// Include the contents of this file at the top of every file that you submit, replacing the fields within <>.  Do not keep the <>.
+
 
 #include <stdio.h>
 #include <stdint.h>
