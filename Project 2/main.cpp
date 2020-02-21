@@ -603,9 +603,42 @@ void testStage3(void) {
     testTransposeC();
 }
 
+void myTest(void) {
+    double a[6] = {1,2,3,4,5,6};
+    double b[6] = {7,8,9,10,11,12};
+    double c[4];
+    multiplyMatrices(a,2,3,b,2,c);
+}
+
+void myTestPTR(void) {
+    double **a = (double**)malloc(2*sizeof(double));
+    double **b = (double**)malloc(3*sizeof(double));
+    for (int i=0; i<2; i++) {
+        a[i] = (double*)malloc(3* sizeof(double));
+    }
+    for (int i=0; i<3; i++) {
+        b[i] = (double*)malloc(2*sizeof(double));
+    }
+    a[0][0] = 1;
+    a[0][1] = 2;
+    a[0][2] = 3;
+    a[1][0] = 4;
+    a[1][1] = 5;
+    a[1][2] = 6;
+
+    b[0][0] = 7;
+    b[0][1] = 8;
+    b[1][0] = 9;
+    b[1][1] = 10;
+    b[2][0] = 11;
+    b[2][1] = 12;
+
+    multiplyMatricesPtr(a, 2, 3, b, 2);
+}
+
 int main(int argc, char **argv) {
     int i;
-    
+
     /** Run only a specific test */
     for (i = 1; i < argc; i++) {
         if (strcmp("testMultiplyMatrixA", argv[i]) == 0) {
@@ -633,7 +666,7 @@ int main(int argc, char **argv) {
             exit(1);
         }
     }
-    
+
     if (argc == 1) {
         testStage1();
         testStage2();
