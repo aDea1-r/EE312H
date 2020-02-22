@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Project 2/MatrixMultiply.h
+
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Project 2/Project2.cpp
+stdio.h
+-
+stdint.h
+-
+cstdlib
+-
+MatrixMultiply.h
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Project 2/MatrixMultiply.h
+
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Project 2/main.cpp
+assert.h
+-
+math.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+MatrixMultiply.h
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Project 2/MatrixMultiply.h
+
