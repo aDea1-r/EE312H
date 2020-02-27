@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="string_adt" targetName="string_adt" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab864508-4e25-42b6-9668-d32ddbca5b63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grading/submissions/compile_error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grading/submissions/infinite_loop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grading/submissions/link_error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grading/submissions/runtime_error.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/grading/submissions/some_credit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\adeel\CLionProjects\EE 312H Labs\string_adt\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YMywcQV5fNFkYUVNkfTZFgMmsa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager">
+    <configuration name="string_adt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="string_adt" TARGET_NAME="string_adt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="string_adt" RUN_TARGET_NAME="string_adt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab864508-4e25-42b6-9668-d32ddbca5b63" name="Default Changelist" comment="" />
+      <created>1582766997097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582766997097</updated>
+      <workItem from="1582766998703" duration="94000" />
+      <workItem from="1582767206644" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1582767216757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1582767216757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1582767216757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1582767216757">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
+  </component>
+</project>
