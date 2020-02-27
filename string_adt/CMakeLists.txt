@@ -3,9 +3,4 @@ project(string_adt)
 
 set(CMAKE_CXX_STANDARD 14)
 
-include_directories(.)
-
-add_executable(string_adt
-        main.cpp
-        Project3.cpp
-        String.h)
+add_executable(string_adt main.cpp Project3.cpp String.h)
