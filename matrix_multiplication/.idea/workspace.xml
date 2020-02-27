@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project_2" targetName="Project_2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d152892a-ed78-4ff2-a6e6-e1544ace1b4c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="Project_2" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\adeel\CLionProjects\EE 312H Labs\Project 2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XzwDfb4v3JQMhhJ40DJFkhM6sI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Project_2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project_2" TARGET_NAME="Project_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project_2" RUN_TARGET_NAME="Project_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d152892a-ed78-4ff2-a6e6-e1544ace1b4c" name="Default Changelist" comment="" />
+      <created>1582062112948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582062112948</updated>
+      <workItem from="1582062114663" duration="148000" />
+      <workItem from="1582222487298" duration="14200000" />
+    </task>
+    <task id="LOCAL-00001" summary="Default Test Cases Working">
+      <created>1582261092315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582261092315</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added proper header">
+      <created>1582261275622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582261275622</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added header template">
+      <created>1582261302267</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582261302267</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Test Cases Working" />
+    <MESSAGE value="Added proper header" />
+    <MESSAGE value="Added header template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added header template" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="298" y="0" key="CommitChangelistDialog2" timestamp="1582261301080">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state x="298" y="0" key="CommitChangelistDialog2/66.0.1214.720@66.0.1214.720" timestamp="1582261301080" />
+    <state width="1171" height="220" key="GridCell.Tab.0.bottom" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="554" height="593" key="GridCell.Tab.0.bottom/0.0.1214.720@0.0.1214.720" timestamp="1582223297671" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582062264082" />
+    <state width="1171" height="220" key="GridCell.Tab.0.bottom/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state width="1171" height="220" key="GridCell.Tab.0.center" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="554" height="593" key="GridCell.Tab.0.center/0.0.1214.720@0.0.1214.720" timestamp="1582223297671" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582062264082" />
+    <state width="1171" height="220" key="GridCell.Tab.0.center/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state width="1171" height="220" key="GridCell.Tab.0.left" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="554" height="593" key="GridCell.Tab.0.left/0.0.1214.720@0.0.1214.720" timestamp="1582223297671" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582062264082" />
+    <state width="1171" height="220" key="GridCell.Tab.0.left/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state width="1171" height="220" key="GridCell.Tab.0.right" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="554" height="593" key="GridCell.Tab.0.right/0.0.1214.720@0.0.1214.720" timestamp="1582223297671" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582062264082" />
+    <state width="1171" height="220" key="GridCell.Tab.0.right/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state width="1171" height="220" key="GridCell.Tab.1.bottom" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="1171" height="220" key="GridCell.Tab.1.bottom/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state width="1171" height="220" key="GridCell.Tab.1.center" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="1171" height="220" key="GridCell.Tab.1.center/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state width="1171" height="220" key="GridCell.Tab.1.left" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="1171" height="220" key="GridCell.Tab.1.left/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state width="1171" height="220" key="GridCell.Tab.1.right" timestamp="1582262495700">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state width="1171" height="220" key="GridCell.Tab.1.right/66.0.1214.720@66.0.1214.720" timestamp="1582262495700" />
+    <state x="266" y="94" key="Vcs.Push.Dialog.v2" timestamp="1582261277469">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state x="266" y="94" key="Vcs.Push.Dialog.v2/66.0.1214.720@66.0.1214.720" timestamp="1582261277469" />
+    <state x="330" y="161" key="run.anything.popup" timestamp="1582244185583">
+      <screen x="66" y="0" width="1214" height="720" />
+    </state>
+    <state x="330" y="161" key="run.anything.popup/66.0.1214.720@66.0.1214.720" timestamp="1582244185583" />
+  </component>
+</project>
