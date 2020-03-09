@@ -6,23 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/string_adt/Project3.cpp
-assert.h
--
-stdbool.h
--
-stdlib.h
--
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/string_adt/String.h
 stdint.h
+-
+
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/string_adt/main.cpp
+stdio.h
 -
 string.h
 -
-cstdio
--
 String.h
 /cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/string_adt/String.h
-
-/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/string_adt/String.h
-stdint.h
+stdlib.h
 -
 

@@ -12,15 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab864508-4e25-42b6-9668-d32ddbca5b63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grading/submissions/compile_error.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grading/submissions/infinite_loop.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grading/submissions/link_error.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grading/submissions/runtime_error.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grading/submissions/some_credit.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/string_adt.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/string_adt.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/string_adt.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/string_adt.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/string_adt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/string_adt.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,25 +67,44 @@
       <updated>1582766997097</updated>
       <workItem from="1582766998703" duration="94000" />
       <workItem from="1582767206644" duration="11000" />
+      <workItem from="1583438861137" duration="2315000" />
+      <workItem from="1583511909746" duration="298000" />
+      <workItem from="1583795963904" duration="172000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1582767216757">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1583796106095">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583796106095" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1583512208345">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1582767216757">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583512208345" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1583512208345">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1582767216757">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583512208345" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1583512208345">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1582767216757">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583512208345" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1583512208345">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582767216757" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583512208345" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1583796131364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/0.0.1536.824@0.0.1536.824" timestamp="1583796131364" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1583796131364">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.0.1536.824@0.0.1536.824" timestamp="1583796131364" />
   </component>
 </project>

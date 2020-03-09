@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/CRM.dir/main.cpp.o CMakeFiles/CRM.dir/MyString.cpp.o CMakeFiles/CRM.dir/Project4.cpp.o  -o CRM.exe -Wl,--out-implib,libCRM.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
