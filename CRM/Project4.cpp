@@ -174,6 +174,9 @@ void processInventory() {
     int quantity;
     readNum(&quantity);
 
+    if (quantity <= 0)
+        return;
+
     if (StringIsEqualTo(&item, &bottlesStr)) {
         bottles+= quantity;
     } else if (StringIsEqualTo(&item, &rattlesStr)) {

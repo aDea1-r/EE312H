@@ -70,6 +70,13 @@ int main(void) {
 	readInput("test3.txt");
 	reset();
 
+    readInput("test4.txt");
+    reset();
+    readInput("test5.txt");
+    reset();
+    readInput("test6.txt");
+    reset();
+
 	/* all the test are done, time to clean up, let's deallocate our "constant strings" */
 	StringDestroy(&inventory);
 	StringDestroy(&purchase);
