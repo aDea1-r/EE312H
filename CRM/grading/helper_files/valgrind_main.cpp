@@ -46,8 +46,6 @@ void readInput(const char* file_name) {
 		} else {
 			printf("Encountered an error in input file\n");
 			printf("The offending line has been ignored\n");
-//			StringPrint(&next_command);
-//			printf("\n");
 		}
 		StringDestroy(&next_command);
 	} while (! all_done);
@@ -63,11 +61,11 @@ int main(void) {
 	summarize = StringCreate("Summarize");
 	quit = StringCreate("Quit");
 	
-	readInput("test1.txt");
+	readInput("../../test_cases/Test_Provided_1/input.txt");
 	reset();
-	readInput("test2.txt");
+	readInput("../../test_cases/Test_Provided_2/input.txt");
 	reset();
-	readInput("test3.txt");
+	readInput("../../test_cases/Test_Provided_3/input.txt");
 	reset();
 
 	/* all the test are done, time to clean up, let's deallocate our "constant strings" */

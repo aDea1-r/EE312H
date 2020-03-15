@@ -1,0 +1,9 @@
+.* Sue.* 0 Diapers
+.* Sue.* 50 Rattles
+.* Johnny.* 40 Rattles
+.* 78 Bottles.* 30 Diapers.* 40 Rattles .*
+.* 3 .*
+Craig .* Bottles .*[^0-9]12[^0-9].*
+Sue .* Diapers .*[^0-9]150[^0-9].*
+Billy .* Rattles .*[^0-9]10[^0-9].*
+
