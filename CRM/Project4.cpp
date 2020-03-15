@@ -31,6 +31,7 @@ void reset(void) {
 	    customers[i].rattles = 0;
 	    customers[i].diapers = 0;
 	    customers[i].bottles = 0;
+//	    printf("Removing Customer %d\n", i);
 	}
 	bottles = 0;
 	diapers = 0;
@@ -108,6 +109,7 @@ void processPurchase() {
         customerID = num_customers;
         num_customers++;
         customers[customerID].name = StringDup(&name);
+//        printf("Creating new customer %d\n", customerID);
         customers[customerID].rattles = 0;
         customers[customerID].bottles = 0;
         customers[customerID].diapers = 0;
@@ -187,11 +189,10 @@ void processInventory() {
 }
 
 void removeCustomer() {
-    StringPrint(&customers[num_customers].name);
-    printf("removed\n");
-    customers[num_customers].diapers = 0;
-    customers[num_customers].rattles = 0;
-    customers[num_customers].bottles = 0;
-    StringDestroy(&customers[num_customers].name);
+    customers[num_customers-1].diapers = 0;
+    customers[num_customers-1].rattles = 0;
+    customers[num_customers-1].bottles = 0;
+    StringDestroy(&customers[num_customers-1].name);
     num_customers--;
+//    printf("Removed customer %d\n",num_customers+1);
 }

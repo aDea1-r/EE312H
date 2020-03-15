@@ -12,12 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc3bd401-9c9e-4d18-a880-dfc2298bce4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Project4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRM.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRM.dir/Project4.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRM.dir/Project4.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRM.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRM.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CRM.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CRM.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583796136995</updated>
       <workItem from="1583796138878" duration="997000" />
-      <workItem from="1584228968028" duration="8219000" />
+      <workItem from="1584228968028" duration="9435000" />
     </task>
     <task id="LOCAL-00001" summary="Added starter code">
       <created>1583796902909</created>
@@ -83,12 +81,20 @@
       <option name="project" value="LOCAL" />
       <updated>1583796902909</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Built in test cases working">
+      <created>1584237443148</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584237443148</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added starter code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added starter code" />
+    <MESSAGE value="Built in test cases working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Built in test cases working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583796200339">
@@ -99,22 +105,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584237441713" />
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1584237386399">
+    <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1584239330637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584237386399" />
-    <state width="1493" height="229" key="GridCell.Tab.0.center" timestamp="1584237386399">
+    <state width="1493" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584239330637" />
+    <state width="1493" height="229" key="GridCell.Tab.0.center" timestamp="1584239330637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584237386399" />
-    <state width="1493" height="229" key="GridCell.Tab.0.left" timestamp="1584237386399">
+    <state width="1493" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584239330637" />
+    <state width="1493" height="229" key="GridCell.Tab.0.left" timestamp="1584239330636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584237386399" />
-    <state width="1493" height="229" key="GridCell.Tab.0.right" timestamp="1584237386399">
+    <state width="1493" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584239330636" />
+    <state width="1493" height="229" key="GridCell.Tab.0.right" timestamp="1584239330637">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584237386399" />
+    <state width="1493" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584239330637" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584237446761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
