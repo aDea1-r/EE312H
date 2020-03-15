@@ -92,6 +92,8 @@ void processPurchase() {
 
     //check validity of quantity
     if (quantity < 1) {
+        StringDestroy(&name);
+        StringDestroy(&item);
         return;
     }
 
@@ -174,8 +176,13 @@ void processInventory() {
     int quantity;
     readNum(&quantity);
 
-    if (quantity <= 0)
+    if (quantity <= 0) {
+        StringDestroy(&bottlesStr);
+        StringDestroy(&rattlesStr);
+        StringDestroy(&diapersStr);
+        StringDestroy(&item);
         return;
+    }
 
     if (StringIsEqualTo(&item, &bottlesStr)) {
         bottles+= quantity;
