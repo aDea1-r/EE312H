@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/set.dir/main.cpp.o CMakeFiles/set.dir/Project5.cpp.o  -o set.exe -Wl,--out-implib,libset.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
