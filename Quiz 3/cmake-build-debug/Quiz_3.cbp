@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Quiz 3/main.cpp">
+		<Unit filename="/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Quiz 3/main.c">
 			<Option target="Quiz_3"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Quiz 3/CMakeLists.txt">

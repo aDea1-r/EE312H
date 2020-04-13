@@ -3,4 +3,4 @@ project(Quiz_3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Quiz_3 main.cpp)
+add_executable(Quiz_3 main.c)

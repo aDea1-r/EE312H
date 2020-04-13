@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Quiz_3.dir/main.cpp.o  -o Quiz_3.exe -Wl,--out-implib,libQuiz_3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Quiz_3.dir/main.c.o  -o Quiz_3.exe -Wl,--out-implib,libQuiz_3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
