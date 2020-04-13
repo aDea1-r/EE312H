@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/project6_recursion.dir/main.cpp.o CMakeFiles/project6_recursion.dir/Project6.cpp.o  -o project6_recursion.exe -Wl,--out-implib,libproject6_recursion.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
