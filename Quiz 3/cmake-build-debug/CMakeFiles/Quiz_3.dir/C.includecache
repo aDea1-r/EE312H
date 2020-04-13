@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/Quiz 3/main.c
+stdio.h
+-
+malloc.h
+-
+stdlib.h
+-
+assert.h
+-
+
