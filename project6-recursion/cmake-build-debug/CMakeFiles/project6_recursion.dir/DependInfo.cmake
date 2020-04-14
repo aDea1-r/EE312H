@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/Project6.cpp" "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/Project6.cpp.o"
-  "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/main.cpp" "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/main.cpp.o"
+  "/cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/Project6.cpp" "/cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/Project6.cpp.o"
+  "/cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/main.cpp" "/cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

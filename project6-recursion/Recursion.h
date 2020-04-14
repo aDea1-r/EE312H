@@ -27,6 +27,7 @@ Martian change(int);
 Martian changeIt(int);
 
 Martian change(int, int, int);
+Martian changeLinear(int, int, int);
 Martian changeIt(int, int, int);
 
 #endif /* _Recursion_h */
