@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Quiz_3" targetName="Quiz_3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4b6ff2b-379a-4ca7-b03d-a85c316b3c4e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\adeel\CLionProjects\EE 312H Labs\Quiz 3\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aUz0v5lHZCWgHWFOsVUajhMOV7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Quiz_3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Quiz_3" TARGET_NAME="Quiz_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Quiz_3" RUN_TARGET_NAME="Quiz_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4b6ff2b-379a-4ca7-b03d-a85c316b3c4e" name="Default Changelist" comment="" />
+      <created>1586804740204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586804740204</updated>
+      <workItem from="1586804743015" duration="2597000" />
+      <workItem from="1586807366472" duration="186000" />
+      <workItem from="1586821259448" duration="60000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finished Recursive Sum Quiz">
+      <created>1586807233113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586807233113</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished Recursive Sum Quiz">
+      <created>1586807428509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586807428509</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Finished Recursive Sum Quiz">
+      <created>1586807519701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586807519701</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished Recursive Sum Quiz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Recursive Sum Quiz" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="336" y="14" key="CommitChangelistDialog2" timestamp="1586807518661">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="336" y="14" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586807518661" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1586821303407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586821303407" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586807553086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586807553086" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586807553085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586807553085" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586807553084">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586807553084" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586807553085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586807553085" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586807349045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586807349045" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586807349045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586807349045" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586807349044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586807349044" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586807349045">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586807349045" />
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1586821317142">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="640" height="204" key="ImportCMakeProjectWizard.bottomPanel/0.0.1536.824@0.0.1536.824" timestamp="1586821317142" />
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel" timestamp="1586821317142">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="640" height="476" key="ImportCMakeProjectWizard.topPanel/0.0.1536.824@0.0.1536.824" timestamp="1586821317142" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586807524560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586807524560" />
+  </component>
+</project>
