@@ -1,6 +1,6 @@
 // Recursion <Project6.cpp>
 // EE 312 Project 6 submission by
-// <Your Name Here>
-// <Your EID>
+// Adeel Rehman
+// aur228
 // Slip days used: <0>
 // Spring 2020

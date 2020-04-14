@@ -1,17 +1,27 @@
-/*
- * Copy the contents of header.txt (filled out) and paste here
- */
+// Recursion <Project6.cpp>
+// EE 312 Project 6 submission by
+// Adeel Rehman
+// aur228
+// Slip days used: <0>
+// Spring 2020
 
 #include <stdio.h>
 #include <stdint.h>
+#include <stdlib.h>
 #include "MazeParams.h"
 #include "Recursion.h"
+
+#define findMin(x,y) (x < y) ? x : y
 
 /* return the smallest of the elements in array x[]
  * there are n elements in x[] (x[0].. x[n-1])
  */
 int minIt(int x[], int n) {
-    return 0;
+    int min = x[0];
+    for (int i=1; i<n; i++) {
+        min = findMin(min, x[i]);
+    }
+    return min;
 }
 
 /* return the smallest of the elements in array x[]
@@ -20,7 +30,12 @@ int minIt(int x[], int n) {
  * use an "n-1" type of decomposition
  */
 int minRec1(int x[], int n) {
-    return 0;
+    if (n==1)
+        return x[0];
+    if (x[0] > x[n-1])
+        return minRec1(x+1, n-1);
+    else
+        return minRec1(x,n-1);
 }
 
 /*
@@ -31,7 +46,9 @@ int minRec1(int x[], int n) {
  * use an "n / 2" type of decomposition
  */
 int minRec2(int x[], int n) {
-    return 0;
+    if (n==1)
+        return x[0];
+    return findMin(minRec2(x,n/2), minRec2(x+n/2, n-n/2));
 }
 
 
@@ -48,7 +65,17 @@ int minRec2(int x[], int n) {
  * accuracy.
  */
 double sqrtIt(double x, double low_guess, double high_guess) {
-    return 0;
+    while(low_guess <= high_guess) {
+        double middle = (low_guess + high_guess) / 2;
+        if (abs(middle * middle - x) < 0.00000000000001)
+            return middle;
+        else if (middle * middle < x)
+            low_guess = middle;
+        else if (middle * middle > x)
+            high_guess = middle;
+//        printf("middle: %.15f middleSquared: %.15f input: %.15f\n", middle, middle*middle,x);
+    }
+    return -1;
 }
 
 /*
@@ -64,7 +91,14 @@ double sqrtIt(double x, double low_guess, double high_guess) {
  * accuracy.
  */
 double sqrtRec(double x, double low_guess, double high_guess) {
-    return 0;
+    double middle = (low_guess + high_guess) / 2;
+    if (abs(middle*middle - x) < 0.00000000000001)
+        return middle;
+    else if (middle * middle < x)
+        return sqrtRec(x, middle, high_guess);
+    else if (middle * middle > x)
+        return sqrtRec(x,low_guess, middle);
+    return -1;
 }
 
 
