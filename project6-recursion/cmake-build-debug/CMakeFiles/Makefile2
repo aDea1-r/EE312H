@@ -44,10 +44,10 @@ RM = /cygdrive/c/Users/adeel/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion"
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/cmake-build-debug"
+CMAKE_BINARY_DIR = /cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/project6_recursion.dir/all:
 	$(MAKE) -f CMakeFiles/project6_recursion.dir/build.make CMakeFiles/project6_recursion.dir/depend
 	$(MAKE) -f CMakeFiles/project6_recursion.dir/build.make CMakeFiles/project6_recursion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/cmake-build-debug/CMakeFiles" --progress-num=1,2,3 "Built target project6_recursion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target project6_recursion"
 .PHONY : CMakeFiles/project6_recursion.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/project6_recursion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/cmake-build-debug/CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/project6_recursion.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/project6_recursion.dir/rule
 
 # Convenience name for target.

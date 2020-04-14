@@ -12,6 +12,7 @@
 #include "Recursion.h"
 
 #define findMin(x,y) (x < y) ? x : y
+#define INTEGER_MAXVALUE 0x7FFFFFFF
 
 /* return the smallest of the elements in array x[]
  * there are n elements in x[] (x[0].. x[n-1])
@@ -117,7 +118,14 @@ double sqrtRec(double x, double low_guess, double high_guess) {
  */
 
 int strCompare(char* str1, char* str2) {
-    return 0;
+    if (str1[0] > str2[0]) {
+        return 1;
+    } else if (str1[0] < str2[0])
+        return -1;
+    else if (str1[0]==0 && str2[0]==0) {
+        return 0;
+    } else
+        return strCompare(str1+1, str2+1);
 }
 
 /*
@@ -143,7 +151,18 @@ int whatLetter(char c) {
  * once again, you can only use recursion, no loops
  */
 int strCompare2(char* str1, char* str2) {
-    return 0;
+    if (str1[0] == 0 && str2[0] == 0)
+        return 0;
+    else if (whatLetter(str1[0]) == -1)
+        return strCompare2(str1 + 1, str2);
+    else if (whatLetter(str2[0]) == -1)
+        return strCompare2(str1, str2 + 1);
+    else if (whatLetter(str1[0]) > whatLetter(str2[0]))
+        return 1;
+    else if (whatLetter(str1[0]) < whatLetter(str2[0]))
+        return -1;
+    else
+        return strCompare2(str1+1, str2+1);
 }
 
 
@@ -205,8 +224,25 @@ int strCompare2(char* str1, char* str2) {
  * along a path to the exit.
  */
 
+//returns:
+// 0-maze solved
+// 1-dead end found
 int solveMazeRec(int row, int col) {
-    return 0;
+//    printf("Checking r:%d c:%d v:%d\n", row, col, maze[row][col]);
+    if (row < 0 || col < 0 || row >= MATRIX_SIZE || col >= MATRIX_SIZE || maze[row][col] == 1 || maze[row][col] == 2)
+        return 1;
+    maze[row][col] = 2;
+    if (row == MATRIX_SIZE-1)
+        return 0;
+    int north = solveMazeRec(row+1, col);
+    int east = solveMazeRec(row, col+1);
+    int south = solveMazeRec(row-1, col);
+    int west  = solveMazeRec(row, col-1);
+
+    int path = north & east & south & west;
+    if (path == 1)
+        maze[row][col] = 0;
+    return path;
 }
 
 
@@ -323,6 +359,7 @@ int turnLeft(int dir) {
  * You indicate "bread crumbs" by setting the square equal to "2"
  */
 void solveMazeIt(int row, int col) {
+    return;
     int dir = 2; // 0 is up, 1 is right, 2 is down, 3 is left.
     maze[row][col] = 2; // drop a bread crumb in the starting square
     while (row < MATRIX_SIZE - 1) { // the exit is the only open square 
@@ -340,7 +377,7 @@ void solveMazeIt(int row, int col) {
  * this optimal collection of coins.
  */
 Martian change(int cents) {
-    return Martian{}; // delete this line, it's broken. Then write the function properly!
+    return change(cents, 5, 12);
 }
 
 /*
@@ -352,7 +389,65 @@ Martian change(int cents) {
  * martian change problem is just as easy as the concrete version 
  */
 Martian change(int cents, int nick_val, int dodek_val) {
-    return Martian{}; // delete this line, it's broken. Then write the function properly!
+//    printf("Entering at Martian:Change. Cents=%d, nick_val=%d, dodek_val=%d\n", cents, nick_val, dodek_val);
+    if (cents < nick_val && cents < dodek_val) {
+        return Martian{cents,0,0};
+    } else if (cents < nick_val && cents >= dodek_val) {
+        Martian temp = change(cents-dodek_val, nick_val, dodek_val);
+        temp.dodeks++;
+        return temp;
+    } else if (cents >= nick_val && cents < dodek_val) {
+        Martian temp = change(cents-nick_val, nick_val, dodek_val);
+        temp.nicks++;
+        return temp;
+    } else if (cents >= nick_val && cents >= dodek_val) {
+        Martian nickPath = change(cents-nick_val, nick_val, dodek_val);
+        nickPath.nicks++;
+        Martian dodekPath = change(cents-dodek_val, nick_val, dodek_val);
+        dodekPath.dodeks++;
+        int nickPathCount = nickPath.dodeks + nickPath.nicks + nickPath.pennies;
+        int dodekPathCount = dodekPath.dodeks + dodekPath.nicks + dodekPath.pennies;
+        if (dodekPathCount > nickPathCount)
+            return nickPath;
+        else
+            return dodekPath;
+    }
+    printf("Exception Has Occured at Martian:Change. Cents=%d, nick_val=%d, dodek_val=%d\n", cents, nick_val, dodek_val);
+}
+
+//Linear version of change. Breaks when dodek_val < nick_val
+//replaced by brute force algorithm because brute force has less edges
+Martian changeLinear(int cents, int nick_val, int dodek_val) {
+    //base case
+    if (cents<nick_val) {
+        return Martian{cents,0,0};
+    }
+
+    //Start with dodeks pathway
+    int centCopy = cents;
+    int dodekPathCount = 0;
+    dodekPathCount += centCopy/dodek_val;
+    centCopy %= dodek_val;
+    dodekPathCount += centCopy/nick_val;
+    centCopy %= nick_val;
+    dodekPathCount += centCopy;
+
+    //start with nicks pathway
+    centCopy = cents;
+    int nickPathCount = 0;
+    nickPathCount += centCopy/nick_val;
+    centCopy %= nick_val;
+    nickPathCount += centCopy;
+
+    if (nickPathCount < dodekPathCount || cents < dodek_val) {
+        Martian data = change(cents-nick_val, nick_val, dodek_val);
+        data.nicks++;
+        return data;
+    } else {
+        Martian data = change(cents-dodek_val, nick_val, dodek_val);
+        data.dodeks++;
+        return data;
+    }
 }
 
 /* 

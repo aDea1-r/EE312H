@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 #include "MazeParams.h"
 #include "Recursion.h"
 
@@ -221,7 +222,23 @@ void recodeMaze(void) {
         }
     }
 }
-	
+
+
+void myTest() {
+    printf("Starting MyTest\n");
+    for (int i=0; i<1000; i++) {
+        int money = rand()%100;
+        int nickVal = rand()%10 + 1;
+        int dodekVal = rand()%15 + nickVal + 1;
+        printf("test %d started, %d, %d, %d\n",i,money,nickVal,dodekVal);
+        Martian force = change(money,nickVal,dodekVal);
+        Martian linear = changeLinear(money,nickVal,dodekVal);
+        assert(force.pennies == linear.pennies);
+        assert(force.nicks == linear.nicks);
+        assert(force.dodeks == linear.dodeks);
+    }
+    printf("MyTest Passed\n");
+}
 
 int main(void) {
     const int magic_number = 13017;
@@ -351,4 +368,6 @@ int main(void) {
      * be sure and test your solution more thoroughly!!!! */
     change4 = change(25, 5, 12);
     printf("change 4 should be 2d, 0n, 1p and is: %dd %dn %dp\n", change4.dodeks, change4.nicks, change4.pennies);
+
+    myTest();
 }

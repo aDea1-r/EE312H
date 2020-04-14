@@ -1,6 +1,6 @@
-C:\Users\adeel\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion"
--- The C compiler identification is GNU 7.4.0
--- The CXX compiler identification is GNU 7.4.0
+C:\Users\adeel\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
 -- Check for working C compiler: /usr/bin/cc
 -- Check for working C compiler: /usr/bin/cc -- works
 -- Detecting C compiler ABI info
@@ -15,4 +15,4 @@ C:\Users\adeel\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/c/Users/adeel/CLionProjects/EE 312H Labs/project6-recursion/cmake-build-debug
+-- Build files have been written to: /cygdrive/c/Users/adeel/CLionProjects/EE312H/project6-recursion/cmake-build-debug
