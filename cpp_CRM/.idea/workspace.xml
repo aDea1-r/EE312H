@@ -11,48 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7317781a-f9da-428b-a002-91a179967cc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../project6-recursion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CRM/cmake-build-debug/test6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CRM/cmake-build-debug/test6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/Project6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/Project6.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/Project6.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/CMakeFiles/project6_recursion.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/project6_recursion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/project6_recursion.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/project6_recursion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/project6_recursion.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/project6_recursion.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/cmake-build-debug/project6_recursion.exe.stackdump" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project6-recursion/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../project6-recursion/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="7317781a-f9da-428b-a002-91a179967cc8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587526754661</updated>
       <workItem from="1587526757760" duration="750000" />
-      <workItem from="1587592097398" duration="8919000" />
+      <workItem from="1587592097398" duration="9529000" />
     </task>
     <servers />
   </component>
