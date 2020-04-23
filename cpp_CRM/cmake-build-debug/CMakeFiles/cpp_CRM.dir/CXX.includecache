@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/Customer.h
+UTString.h
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/UTString.h
+
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/CustomerDB.h
+UTString.h
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/UTString.h
+Customer.h
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/Customer.h
+
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/UTString.h
+stdlib.h
+-
+stdint.h
+-
+
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/main.cpp
+stdio.h
+-
+string
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+UTString.h
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/UTString.h
+CustomerDB.h
+C:/Users/adeel/CLionProjects/EE312H/cpp_CRM/CustomerDB.h
+
