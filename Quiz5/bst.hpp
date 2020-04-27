@@ -22,6 +22,8 @@ class BST {
             delete left;
             delete right;
         }
+
+        int sumRec();
     };
 
     Node *root;
@@ -51,4 +53,6 @@ class BST {
     void insert(int el);
     bool find(int el);
     // void remove(int el);
+
+    int sumRec();
 };

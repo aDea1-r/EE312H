@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include "bst.hpp"
+#include <cassert>
 
 BST::BST(void) : root(nullptr) { }
 
@@ -87,17 +88,66 @@ void BST::insert(int el) {
     }
 }
 
+int BST::sumRec() {
+    if (root == nullptr)
+        return 0;
+    return root->sumRec();
+}
 
+int BST::Node::sumRec() {
+    if (this->left == nullptr && this->right == nullptr) {
+        return this->val;
+    }
+    if (this->left == nullptr && this->right != nullptr) {
+        return this->val + this->right->sumRec();
+    }
+    if (this->left != nullptr && this->right == nullptr) {
+        return this->val + this->left->sumRec();
+    }
+    return this->left->sumRec() + this->val + this->right->sumRec();
+}
+
+void testEmptyTree() {
+    BST bst;
+    assert(0 == bst.sumRec());
+}
+
+void testSingleNodeTree() {
+    BST bst;
+    bst.insert(777);
+    assert(777 == bst.sumRec());
+}
+
+void testMoreNodes() {
+    BST bst;
+    bst.insert(50);
+    bst.insert(60);
+    bst.insert(40);
+    assert(150 == bst.sumRec());
+}
+
+void testEvenMoreNodes() {
+    BST bst;
+    bst.insert(50);
+    bst.insert(60);
+    bst.insert(40);
+    bst.insert(55);
+    bst.insert(30);
+    bst.insert(58);
+    assert(293 == bst.sumRec());
+}
 
 int main(void) {
-    BST bst;
-    bst.insert(55);
-    bst.insert(66);
-
-    cout << bst.find(77) << endl;
-    cout << bst.find(55) << endl;
-
-    cout << (bst.findMin())->val << endl;
-
-    bst.print();
+    cout << "Starting Empty Tree" << endl;
+    testEmptyTree();
+    cout << "Finished Empty Tree" << endl;
+    cout << "Starting Single Node Tree" << endl;
+    testSingleNodeTree();
+    cout << "Finished Single Node Tree" << endl;
+    cout << "Starting Test More Nodes" << endl;
+    testMoreNodes();
+    cout << "Finished Test More Nodes" << endl;
+    cout << "Starting Test Even More Nodes" << endl;
+    testEvenMoreNodes();
+    cout << "Finished Test Even More Nodes" << endl;
 }
