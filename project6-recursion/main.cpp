@@ -241,7 +241,7 @@ void myTest() {
 }
 
 int main(void) {
-    const int magic_number = 13017;
+    const int magic_number = 69;
 
     /* test min */
     int a[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -254,12 +254,12 @@ int main(void) {
     printf("now the smallest is %d\n", minRec2(a, 10));
 	
     /* test sqrt */
-    printf("the sqrt of 25 is %g\n", sqrtIt(25.0, 0, 25.0));
-    printf("the sqrt of 26 is %g\n", sqrtIt(26.0, 0, 26.0));
-    printf("the sqrt of 2 is %g\n", sqrtIt(2.0, 0, 2.0));
-    printf("the sqrt of 25 is %g\n", sqrtRec(25.0, 0, 25.0));
-    printf("the sqrt of 26 is %g\n", sqrtRec(26.0, 0, 26.0));
-    printf("the sqrt of 2 is %g\n", sqrtRec(2.0, 0, 2.0));
+    printf("the sqrt of 25 is %.16g\n", sqrtIt(25.0, 0, 25.0));
+    printf("the sqrt of 26 is %.16g\n", sqrtIt(26.0, 0, 26.0));
+    printf("the sqrt of 2 is %.16g\n", sqrtIt(2.0, 0, 2.0));
+    printf("the sqrt of 25 is %.16g\n", sqrtRec(25.0, 0, 25.0));
+    printf("the sqrt of 26 is %.16g\n", sqrtRec(26.0, 0, 26.0));
+    printf("the sqrt of 2 is %.16g\n", sqrtRec(2.0, 0, 2.0));
 
     /* test strCompare */
     char* s1; char* s2;
@@ -369,5 +369,5 @@ int main(void) {
     change4 = change(25, 5, 12);
     printf("change 4 should be 2d, 0n, 1p and is: %dd %dn %dp\n", change4.dodeks, change4.nicks, change4.pennies);
 
-    myTest();
+//    myTest();
 }

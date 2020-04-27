@@ -93,12 +93,12 @@ double sqrtIt(double x, double low_guess, double high_guess) {
  */
 double sqrtRec(double x, double low_guess, double high_guess) {
     double middle = (low_guess + high_guess) / 2;
-    if (abs(middle*middle - x) < 0.00000000000001)
+    if (abs(middle*middle - x) <= 0.00000000000001)
         return middle;
-    else if (middle * middle < x)
-        return sqrtRec(x, middle, high_guess);
     else if (middle * middle > x)
         return sqrtRec(x,low_guess, middle);
+    else if (middle * middle < x)
+        return sqrtRec(x, middle, high_guess);
     return -1;
 }
 
