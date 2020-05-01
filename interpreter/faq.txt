@@ -1,0 +1,59 @@
+1.
+-----
+An Polish Notation expression has one of two forms when parsed from Left to Right.
+1.  Value
+2.  Operator (Expression) (Expression)
+ 
+where Expression is of the type of one of the two above.
+So to evaluate the expression, you can use recursion:
+The base case is #1 above. There is no operator here.
+The recursive case is #2 above, where the first character is an operator.  Keep evaluating each of the two expressions recursively, and combine the two return values with the operator.
+The special case of unary operators is a simple extension where there is only one expression instead of two in the recursive case.
+ 
+2.
+-----
+Instead of recursion, you can use  a Stack on the heap.  You have two stacks, in fact -- one to hold operators, and one to hold values.  You parse the given expression from Right to Left.  When you see an operator, pop two values from the value stack, use the operator to combine them, and push the result on to the value stack.  When you see a value, push it on the value stack.
+ 
+Search the web for more details if you like.
+
+3.
+Please make your main file look like the following i.e. create a run function! This will make grading much easier....Then for testing, you just need to make a temporary copy of the target blip file.
+
+int main(void){
+	set_input("test_grader.blip");  
+	run();  
+}
+
+
+FAQ:
+Q: Are we allowed to use stack, map and vector from the stdlib?
+A: yes, in spite of what the PDF description says.
+
+
+Q: Do we need to worry about dividing by zero?
+A: no
+
+Q: Can we assume arithmetic expressions are in the correct format?
+A: yes
+
+Q: Should we output a new line after the warning message?
+A: yes
+
+Q: What files do I need to submit?
+A: All of your cpp and h files must be submitted for this project. Do not submit blip files.
+
+Q: var x 10 and then var x 5 what is x?
+A: update and override so x is now 5
+
+Q: next_token vs next_token_peek what is the difference?
+A: next_token_peek does not consume the token
+
+Q: What if the program tries to access an unititialized variable?
+A: We will not test that.
+
+Q: How do we handle escape characters (ex. \n)?
+A: cout does that for you already. Try cout << "test\n";
+   This will output a newline after the word test.
+
+Q: What are we allowed to use from standard libraries?
+A: You can use already existing data structures, like stacks, maps, and vectors. Do not use anything else that you have not written.
