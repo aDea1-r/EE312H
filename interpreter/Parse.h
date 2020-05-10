@@ -65,5 +65,5 @@ void read_next_token(void);
  */
 const char* peek_next_token(void);
 
-
+extern bool kill;
 #endif /* _Parse_h */

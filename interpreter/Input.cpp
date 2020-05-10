@@ -15,6 +15,8 @@ static uint32_t cursor = 0;
 static const uint32_t token_max_size = 128;
 static char token[token_max_size];
 
+bool kill = false;
+
 void set_input(const char* file_name) {
     FILE* p = fopen(file_name, "r");
     if (!p) {
@@ -47,6 +49,12 @@ static bool IS_SPACE(char c) {
 static bool token_has_been_peeked = false;
 
 void read_next_token(void) {
+
+//    if (next_token_type == END) {
+//        kill = true;
+//        return;
+//    }
+
     if (token_has_been_peeked) {
         token_has_been_peeked = false;
         return;

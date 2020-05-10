@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/adeel/CLionProjects/EE312H/interpreter/Interpret.cpp
+Interpret.h
+C:/Users/adeel/CLionProjects/EE312H/interpreter/Interpret.h
+Parse.h
+C:/Users/adeel/CLionProjects/EE312H/interpreter/Parse.h
+cstdio
+-
+iostream
+-
+map
+-
+cstring
+-
+vector
+-
+exptree.hpp
+C:/Users/adeel/CLionProjects/EE312H/interpreter/exptree.hpp
+
+C:/Users/adeel/CLionProjects/EE312H/interpreter/Interpret.h
+string
+-
+map
+-
+
+C:/Users/adeel/CLionProjects/EE312H/interpreter/Parse.h
+stdint.h
+-
+
+C:/Users/adeel/CLionProjects/EE312H/interpreter/exptree.hpp
+vector
+-
+string
+-
+cstdint
+-
+

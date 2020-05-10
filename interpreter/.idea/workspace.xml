@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="interpreter" targetName="interpreter" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87ecd69a-b99e-4029-9dd1-7c4614827651" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Interpret.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpret.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/test0.blip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exptree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exptree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cpp_CRM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cpp_CRM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Input.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parse.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parse.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.blip" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test1.blip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.blip" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test2.blip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.blip" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test3.blip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test4.blip" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test4.blip" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\adeel\CLionProjects\EE312H\interpreter\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bIsBNV5CpSalOG9NR6ZjL99DKi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adeel\CLionProjects\EE312H\interpreter\cmake-build-debug" />
+      <recent name="C:\Users\adeel\CLionProjects\EE312H\interpreter" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="interpreter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="interpreter" TARGET_NAME="interpreter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="interpreter" RUN_TARGET_NAME="interpreter">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87ecd69a-b99e-4029-9dd1-7c4614827651" name="Default Changelist" comment="" />
+      <created>1588330805705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588330805705</updated>
+      <workItem from="1588330808486" duration="808000" />
+      <workItem from="1589069757595" duration="15948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589070859925">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="721" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589070859925" />
+    <state width="396" height="466" key="DebuggerActiveHint" timestamp="1589084667479">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="396" height="466" key="DebuggerActiveHint/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589084667479" />
+    <state width="1877" height="364" key="GridCell.Tab.-1.bottom" timestamp="1589077406053">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.-1.bottom/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077406053" />
+    <state width="1877" height="364" key="GridCell.Tab.-1.center" timestamp="1589077406053">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.-1.center/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077406053" />
+    <state width="1877" height="364" key="GridCell.Tab.-1.left" timestamp="1589077406053">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.-1.left/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077406053" />
+    <state width="1877" height="364" key="GridCell.Tab.-1.right" timestamp="1589077406053">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.-1.right/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077406053" />
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom" timestamp="1589086402757">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="193" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589086402757" />
+    <state width="1877" height="193" key="GridCell.Tab.0.center" timestamp="1589086402757">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="193" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589086402757" />
+    <state width="1877" height="193" key="GridCell.Tab.0.left" timestamp="1589086402757">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="193" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589086402757" />
+    <state width="1877" height="193" key="GridCell.Tab.0.right" timestamp="1589086402757">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="193" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589086402757" />
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1589077404014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.bottom/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077404014" />
+    <state width="1877" height="364" key="GridCell.Tab.1.center" timestamp="1589077404014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.center/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077404014" />
+    <state width="1877" height="364" key="GridCell.Tab.1.left" timestamp="1589077404014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.left/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077404014" />
+    <state width="1877" height="364" key="GridCell.Tab.1.right" timestamp="1589077404014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="364" key="GridCell.Tab.1.right/0.0.1920.1080/-1920.-227.1858.1080@0.0.1920.1080" timestamp="1589077404014" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="next_token_type" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

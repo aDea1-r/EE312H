@@ -1,0 +1,8 @@
+var x 42
+var y + x + 2 x
+set x + x 1
+var y - x + 2 * 2 ! ! y
+output x text "\n"
+output y text "\n"
+var g + 1 1 // set g 3
+print "g should be 2 :" output g
